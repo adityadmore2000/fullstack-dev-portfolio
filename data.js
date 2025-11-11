@@ -30,34 +30,30 @@ const data = {
       "This experience has honed my technical skills and deepened my understanding of state-of-the-art image analysis and 3D point cloud segmentation libraries."
       ]
     },
-    {
-      "title": "Career Break",
-      "company": "",
-      "duration": "Jul 2024 – Present · 1 yr 4 mos",
-      "description": ["After leaving my job to explore a master’s in computer science, I realized I am more passionate about building and implementing projects than focusing solely on theoretical study.",
-        "During this period, I developed a game and noticed that indie teams face excessive manual testing.",
-        "I researched possible solutions and created an MVP for a platform to streamline testing efficiently and cost-effectively.",
-        "This hands-on project strengthened my problem-solving and technical skills, and reinforced my focus on software engineering and building real-world applications."
-      ]
-      
-    }
   ],
   "projects": [
   {
-    "title": "PlaytestUrGame — Backend-focused Video Analytics MVP (Active development)",
+    "title": "PlaytestUrGame: video-analytics for games - MVP (Active development)",
     "duration": "09/25 – Present",
     "description": [
-      "Created and deployed backend APIs with Node.js / Express.js to facilitate multi-game testing sessions and player feedback gathering.",
-      "Working on a selective video recording system that intelligently records gameplay only when enough feedback data has been collected — preventing redundant recordings and minimizing storage overhead.",
-      "Prioritized efficient architecture over over-engineering for scalable analytics without redundant computation.",
-      "Employed Supabase / MinIO for secure, structured data and video storage, and Docker to ensure local environment consistency and testing.",
-      "Prepared for deployment through serverless platforms (Vercel, Netlify) to realize cost-efficient scalability.",
-      "Existing AI-based bug detection robust solutions require Gigabytes of storage to identify problems, but this solution gets the work done in MBs (~99% storage saved), saving computational costs."
+      "Built an MVP for a playtesting and analytics platform designed for indie game developers. The system captures real-time player feedback and generates actionable gameplay insights while maintaining low performance and storage overhead.",
+      "Designed an intelligent aggregation system that highlights genuine gameplay issues across users—avoiding bias from repeated data or low-confidence signals",
+      "Implemented selective screen recording to capture only critical gameplay moments from one player at a time, ensuring efficient use of resources.",
+      "Used AWS lambda functions which frontend can communicate with via http requests, and S3 buckets for storing videos & game."
     ],
-    "links":{
-      "text":"Demo & explaination",
+    "links":[{
+      "text":"Thorough explaination",
       "url":"https://www.youtube.com/embed/RWnosZw35s0"
+    },
+    {
+      "text": "Demo walkthrough",
+      "url":"https://youtube.com/embed/CPJBWW9jc-k"
+    },
+    {
+      "text": "Link to demo",
+      "url":"https://playtest-ur-game.vercel.app/",
     }
+  ]
   },
   {
     "title": "Verify WebGL Build – npm package",
@@ -76,24 +72,33 @@ const data = {
     ]
   },
 ],
-  skills: {
-    languages: [
-      "C#", "JavaScript", "HTML", "CSS", "Python"
-    ],
-    frameworks: [
-      "React.js", "React Hooks", "Express.js", "Node.js","Jest"
-    ],
-    tools: [
-      "Git", "Docker", "Supabase", "npm", "minio","Unity"
-    ],
-    database:[
-      "PostgreSQL"
-    ],
-    concepts: [
-      "System Design", "Database Design", "DBMS", "Algorithms", "Data Structures",
-      "User Authentication", "DNS Management", "Creative Problem Solving",
-      "Cost Efficiency", "Planning", "REST APIs"
-    ]
-  }
+skills: {
+  languages: [
+    "C#", "JavaScript", "HTML", "CSS", "Python", "SQL", "YAML"
+  ],
+  frameworks: [
+    "React.js", "React Hooks", "Express.js", "Node.js", "Jest", "Serverless Framework"
+  ],
+  tools: [
+    "Git", "Git Bash", "GitHub", "Docker", "Supabase", "npm", "MinIO",
+    "AWS CLI", "LocalStack", "Unity"
+  ],
+  cloud: [
+    "AWS Lambda", "Amazon S3", "AWS CloudFormation", "Amazon CloudWatch",
+    "AWS IAM", "Amazon CloudFront", "Serverless Computing", "Cloud Native Applications", "Cloud Storage", "Cloud Applications", "Infrastructure as Code (IaC)"
+  ],
+  database: [
+    "PostgreSQL"
+  ],
+  concepts: [
+    "System Design", "Database Design", "DBMS", "Algorithms", "Data Structures",
+    "User Authentication", "Authorization", "DNS Management", "Middleware", "JWT",
+    "Client-Server Application Development", "Single Page Applications", "Web App Development",
+    "REST APIs", "Web Services", "HTTP", "HTTPS", "API Testing", "Debugging",
+    "Root Cause Analysis", "Root Cause Problem Solving", "Proof of Concept",
+    "Creative Problem Solving", "Analytical Skills", "Cost Efficiency", "Planning", "Modular Programming"
+  ]
+}
+
 
 };

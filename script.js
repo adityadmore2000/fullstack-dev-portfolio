@@ -49,19 +49,6 @@ function createCard(item) {
         a.textContent = linkData.text || "External Link";
         a.target = "_blank";
         modalLinks.appendChild(a);
-
-        // Embed YouTube iframe if URL is embed
-        if(linkData.url.includes("youtube.com/embed")) {
-          const iframe = document.createElement('iframe');
-          iframe.src = linkData.url;
-          iframe.width = "560";
-          iframe.height = "315";
-          iframe.title = item.title;
-          iframe.frameBorder = "0";
-          iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-          iframe.allowFullscreen = true;
-          modalDesc.appendChild(iframe);
-        }
       });
 
       // Handle description
@@ -98,7 +85,7 @@ function createSkillTag(name){
   return tag;
 }
 
-['languages','frameworks','tools','concepts','database'].forEach(type=>{
+['languages','frameworks','tools','concepts','database','cloud'].forEach(type=>{
   const container = document.getElementById(`${type}-tags`);
   data.skills[type].forEach(skill => container.appendChild(createSkillTag(skill)));
 });
