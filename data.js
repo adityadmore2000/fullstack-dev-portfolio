@@ -1,24 +1,12 @@
 const data = {
-    "about": "Hi, I'm Aditya. I’m a developer who thrives on solving problems and exploring possibilities. Whenever something doesn’t work, I don’t stop — I experiment, rethink, and find new angles until a solution fits. I believe every challenge has multiple routes, and I enjoy figuring out the most efficient and cost-effective one. I value practicality over perfection — building systems that are reliable, maintainable, and scalable with available resources. Whether it’s debugging a tricky backend issue or designing a new workflow, I focus on understanding how and why something works rather than just making it work. I approach development with persistence, curiosity, and a constant drive to learn. My goal is to keep growing through real-world projects, build smarter solutions, and never lose the habit of questioning 'what if this could be done better?'",
+    "about": "Self-taught Fullstack Developer specializing in Node.js and Express.js, passionate about building reliable, maintainable, and scalable systems. Experienced in end-to-end platform development, including containerized local development and cloud deployment (AWS Lambda, S3, CloudFront) with IaC principles. Built projects like PlaytestUrGame, a data-driven playtesting tool for indie developers. Thrives on solving real-world problems, optimizing workflows, and continuously improving systems.",
   "education": [
     {
       "title": "B.Tech / B.E. Computer Science",
       "institute": "Marathwada Mitra Mandal's Institute of Technology, Pune",
       "duration": "2019-2023 | Full Time | CGPA: 8.8/10",
       "description": "2019-2023 | Full Time | CGPA: 8.8/10"
-    },
-    {
-      "title": "Class XII",
-      "institute": "Maharashtra Board",
-      "duration": "2019 | Percentage: 74.77%",
-      "description": "2019 | Percentage: 74.77%"
-    },
-    {
-      "title": "Class X",
-      "institute": "Maharashtra Board",
-      "duration": "2017 | Percentage: 86.60%",
-      "description": "2017 | Percentage: 86.60%"
-    }
+    },  
   ],
   "experience": [
     {
