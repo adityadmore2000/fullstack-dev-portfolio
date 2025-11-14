@@ -41,18 +41,19 @@ const data = {
       "Implemented selective screen recording to capture only critical gameplay moments from one player at a time, ensuring efficient use of resources.",
       "Used AWS lambda functions which frontend can communicate with via http requests, and S3 buckets for storing videos & game."
     ],
-    "links":[{
-      "text":"Thorough explaination",
-      "url":"https://www.youtube.com/embed/RWnosZw35s0"
-    },
-    {
-      "text": "Demo walkthrough",
-      "url":"https://youtube.com/embed/CPJBWW9jc-k"
-    },
-    {
-      "text": "Link to demo",
-      "url":"https://playtest-ur-game.vercel.app/",
-    }
+    "links":[
+      {
+        "text": "Demo walkthrough",
+        "url":"https://youtube.com/embed/CPJBWW9jc-k"
+      },
+      {
+        "text": "Link to demo",
+        "url":"https://playtest-ur-game.vercel.app/",
+      },
+      {
+        "text":"Thorough explaination",
+        "url":"https://www.youtube.com/embed/RWnosZw35s0"
+      },
   ]
   },
   {
