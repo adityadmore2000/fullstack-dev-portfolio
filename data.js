@@ -6,36 +6,32 @@ const data = {
       "institute": "Marathwada Mitra Mandal's Institute of Technology, Pune",
       "duration": "2019-2023 | Full Time | CGPA: 8.8/10",
       "description": "2019-2023 | Full Time | CGPA: 8.8/10"
-    },
-    {
-      "title": "Class XII",
-      "institute": "Maharashtra Board",
-      "duration": "2019 | Percentage: 74.77%",
-      "description": "2019 | Percentage: 74.77%"
-    },
-    {
-      "title": "Class X",
-      "institute": "Maharashtra Board",
-      "duration": "2017 | Percentage: 86.60%",
-      "description": "2017 | Percentage: 86.60%"
-    }
+    },  
   ],
   "projects": [
   {
-    "title": "PlaytestUrGame — Backend-focused Video Analytics MVP (Active development)",
+    "title": "PlaytestUrGame: video-analytics for games - MVP (Active development)",
     "duration": "09/25 – Present",
     "description": [
-      "Created and deployed backend APIs with Node.js / Express.js to facilitate multi-game testing sessions and player feedback gathering.",
-      "Working on a selective video recording system that intelligently records gameplay only when enough feedback data has been collected — preventing redundant recordings and minimizing storage overhead.",
-      "Prioritized efficient architecture over over-engineering for scalable analytics without redundant computation.",
-      "Employed Supabase / MinIO for secure, structured data and video storage, and Docker to ensure local environment consistency and testing.",
-      "Prepared for deployment through serverless platforms (Vercel, Netlify) to realize cost-efficient scalability.",
-      "Existing AI-based bug detection robust solutions require Gigabytes of storage to identify problems, but this solution gets the work done in MBs (~99% storage saved), saving computational costs."
+      "Built an MVP for a playtesting and analytics platform designed for indie game developers. The system captures real-time player feedback and generates actionable gameplay insights while maintaining low performance and storage overhead.",
+      "Designed an intelligent aggregation system that highlights genuine gameplay issues across users—avoiding bias from repeated data or low-confidence signals",
+      "Implemented selective screen recording to capture only critical gameplay moments from one player at a time, ensuring efficient use of resources.",
+      "Used AWS lambda functions which frontend can communicate with via http requests, and S3 buckets for storing videos & game."
     ],
-    "links":{
-      "text":"Demo & explaination",
-      "url":"https://www.youtube.com/embed/RWnosZw35s0"
-    }
+    "links":[
+      {
+        "text": "Demo walkthrough",
+        "url":"https://youtube.com/embed/CPJBWW9jc-k"
+      },
+      {
+        "text": "Link to demo",
+        "url":"https://playtest-ur-game.vercel.app/",
+      },
+      {
+        "text":"Thorough explaination",
+        "url":"https://www.youtube.com/embed/RWnosZw35s0"
+      },
+  ]
   },
   {
     "title": "Verify WebGL Build – npm package",
@@ -54,24 +50,33 @@ const data = {
     ]
   },
 ],
-  skills: {
-    languages: [
-      "C#", "JavaScript", "HTML", "CSS", "Python"
-    ],
-    frameworks: [
-      "React.js", "React Hooks", "Express.js", "Node.js","Jest"
-    ],
-    tools: [
-      "Git", "Docker", "Supabase", "npm", "minio","Unity"
-    ],
-    database:[
-      "PostgreSQL"
-    ],
-    concepts: [
-      "System Design", "Database Design", "DBMS", "Algorithms", "Data Structures",
-      "User Authentication", "DNS Management", "Creative Problem Solving",
-      "Cost Efficiency", "Planning", "REST APIs"
-    ]
-  }
+skills: {
+  languages: [
+    "C#", "JavaScript", "HTML", "CSS", "Python", "SQL", "YAML"
+  ],
+  frameworks: [
+    "React.js", "React Hooks", "Express.js", "Node.js", "Jest", "Serverless Framework"
+  ],
+  tools: [
+    "Git", "Git Bash", "GitHub", "Docker", "Supabase", "npm", "MinIO",
+    "AWS CLI", "LocalStack", "Unity"
+  ],
+  cloud: [
+    "AWS Lambda", "Amazon S3", "AWS CloudFormation", "Amazon CloudWatch",
+    "AWS IAM", "Amazon CloudFront", "Serverless Computing", "Cloud Native Applications", "Cloud Storage", "Cloud Applications", "Infrastructure as Code (IaC)"
+  ],
+  database: [
+    "PostgreSQL"
+  ],
+  concepts: [
+    "System Design", "Database Design", "DBMS", "Algorithms", "Data Structures",
+    "User Authentication", "Authorization", "DNS Management", "Middleware", "JWT",
+    "Client-Server Application Development", "Single Page Applications", "Web App Development",
+    "REST APIs", "Web Services", "HTTP", "HTTPS", "API Testing", "Debugging",
+    "Root Cause Analysis", "Root Cause Problem Solving", "Proof of Concept",
+    "Creative Problem Solving", "Analytical Skills", "Cost Efficiency", "Planning", "Modular Programming"
+  ]
+}
+
 
 };
