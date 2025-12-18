@@ -1,5 +1,5 @@
 const data = {
-    "about": "Hi, I'm Aditya. I’m a developer who thrives on solving problems and exploring possibilities. Whenever something doesn’t work, I don’t stop — I experiment, rethink, and find new angles until a solution fits. I believe every challenge has multiple routes, and I enjoy figuring out the most efficient and cost-effective one. I value practicality over perfection — building systems that are reliable, maintainable, and scalable with available resources. Whether it’s debugging a tricky backend issue or designing a new workflow, I focus on understanding how and why something works rather than just making it work. I approach development with persistence, curiosity, and a constant drive to learn. My goal is to keep growing through real-world projects, build smarter solutions, and never lose the habit of questioning 'what if this could be done better?'",
+    "about": "Full-Stack Developer with experience in Node.js, TypeScript, React, and PostgreSQL, building scalable cloud-native applications and clean backend architectures. Built PlaytestUrGame, a game analytics platform with selective screen recording that reduced storage usage by 90%+, real-time feedback aggregation, and AWS serverless workflows. Previously a Junior AI Engineer at Neilsoft with hands-on experience in computer vision, deep learning, and PyTorch. Strong in REST APIs, JWT authentication,Prisma ORM, WebSockets, Docker, and system design fundamentals",
   "education": [
     {
       "title": "B.Tech / B.E. Computer Science",
@@ -18,28 +18,6 @@ const data = {
       "institute": "Maharashtra Board",
       "duration": "2017 | Percentage: 86.60%",
       "description": "2017 | Percentage: 86.60%"
-    }
-  ],
-  "experience": [
-    {
-      "title": "Graduate Engineer Trainee",
-      "company": "Neilsoft Ltd.",
-      "duration": "10/07/2023 – 15/07/2023 (1 year)",
-      "description": ["During this period, I have developed significant expertise in the field of image processing, particularly through the utilization of the YOLOX library.",
-      "Additionally, I have explored advanced technologies in point cloud segmentation, experimenting with cutting-edge tools such as Pointcept and Repsurf.",
-      "This experience has honed my technical skills and deepened my understanding of state-of-the-art image analysis and 3D point cloud segmentation libraries."
-      ]
-    },
-    {
-      "title": "Career Break",
-      "company": "",
-      "duration": "Jul 2024 – Present · 1 yr 4 mos",
-      "description": ["After leaving my job to explore a master’s in computer science, I realized I am more passionate about building and implementing projects than focusing solely on theoretical study.",
-        "During this period, I developed a game and noticed that indie teams face excessive manual testing.",
-        "I researched possible solutions and created an MVP for a platform to streamline testing efficiently and cost-effectively.",
-        "This hands-on project strengthened my problem-solving and technical skills, and reinforced my focus on software engineering and building real-world applications."
-      ]
-      
     }
   ],
   "projects": [

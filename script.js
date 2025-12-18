@@ -1,6 +1,5 @@
 // Grab containers
 const educationContainer = document.getElementById('education-cards');
-const experienceContainer = document.getElementById('experience-cards');
 const projectsContainer = document.getElementById('projects-cards');
 const aboutText = document.getElementById('about-text');
 
@@ -85,8 +84,8 @@ function createCard(item) {
 // Populate sections
 aboutText.textContent = data.about;
 
-[data.education, data.experience, data.projects].forEach((section, i) => {
-  const container = [educationContainer, experienceContainer, projectsContainer][i];
+[data.education, data.projects].forEach((section, i) => {
+  const container = [educationContainer, projectsContainer][i];
   section.forEach(item => container.appendChild(createCard(item)));
 });
 
